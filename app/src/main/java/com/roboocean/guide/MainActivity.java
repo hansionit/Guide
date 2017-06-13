@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import static com.roboocean.guide.HGuideView.VIEWSTYLE_RECT;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button mTextView;
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 HGuideView.builder(MainActivity.this)
                         .addHighLightGuidView(mTextView)
+                        .setHighLightStyle(VIEWSTYLE_RECT)
                         .show();
             }
         });
