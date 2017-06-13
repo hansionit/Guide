@@ -72,7 +72,7 @@ public class HGuideView extends View {
 
 
     /**
-     * 设置需要高亮的View
+     * 设置需要高亮的 View
      * @param targetView
      */
     public HGuideView addHighLightGuidView(View targetView) {
