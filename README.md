@@ -8,4 +8,4 @@
 还差指引图片与文字的添加显示
 
 
-! [图 ] (https://github.com/hansionit/Guide/blob/master/app/src/main/assets/20170613114823.jpg)；
+![图](https://github.com/hansionit/Guide/blob/master/app/src/main/assets/20170613114823.jpg)
